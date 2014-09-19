@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "page1" data-role = "page">
+            <div data-role = "header">
+                <h1>Ejemplo de detalle</h1>
+            </div>
+            <div data-role = "content">
+               <a href = "#borrar" data-role = "button" data-rel = "dialog" data-transition = "pop">Borrar registro</a> 
+            </div>
+            <div data-role = "footer">
+                <h4>Pie</h4>
+            </div>
+        </div>
+
+        <div id = "borrar" data-role = "page">
+            <div data-role = "header">
+                <h1>Eliminaci—n de registro</h1>
+            </div>
+            <div data-role = "content">
+                <p>Desea realmente eliminar el registro?</p>
+                <a href = "#" data-role = "button" data-theme = "c" data-inline = "true" data-mini = "true">No</a>
+                <a href = "#" data-role = "button" data-theme = "b" data-inline = "true" data-mini = "true">S’</a> 
+            </div>
+        </div>
+
+    </body>
+</html>

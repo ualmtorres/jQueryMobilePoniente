@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>jQuery Mobile</title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "inicio" data-role = "page">
+            <div data-role = "header">
+                <h1>jQuery Mobile</h1>
+            </div>
+            <div data-role = "content">
+                <p>
+                    <a href = '#datosGenerales' data-transition="slide" data-role = 'button'>Datos generales</a>
+                </p>
+                <p>
+                    <a href = '#datosAcademicos' data-transition="slide" data-role = 'button'>Datos académicos</a>
+                </p>
+                <p>
+                    <a href = '#precios' data-rel = "dialog" data-transition="pop" data-role = 'button'>Precios</a>
+                </p>
+                            </div>
+        </div>
+
+        <div id = "datosGenerales" data-role = "page" data-add-back-btn = "true" data-back-btn-text = "Atrás">
+            <div data-role = "header">
+                <h1>Datos generales</h1>
+            </div>
+            <div data-role = "content">
+                <p>
+                    Dirigido a: Estudiantes, titulados y profesionales de informática
+                    <br/>
+                    Duración: 30 horas
+                    <br/>
+                    Modalidad: Online
+                    <br/>
+                    Plazas limitadas
+                    <br/>
+                    Título a expedir: Diploma aptitud
+                    <br/>
+                    Precios publicos: 90 EUR
+                </p>
+            </div>
+        </div>
+
+        <div id = "datosAcademicos" data-role = "page" data-add-back-btn = "true" data-back-btn-text = "Atrás">
+            <div data-role = "header">
+                <h1>Datos académicos</h1>
+            </div>
+            <div data-role = "content">
+                <p>
+                    Curso online mediante videotutoriales que muestran de forma práctica y sencilla cada una de las técnicas y controles de jQuery Mobile necesarios para desarrollar una aplicación para un dispositivo táctil. Tras cada videotutorial se plantea un problema a resolver basado en lo aprendido en el videotutorial
+                </p>
+            </div>
+        </div>
+
+        <div id = "precios" data-role = "page">
+            <div data-role = "header">
+                <h1>Precios</h1>
+            </div>
+            <div data-role = "content">
+                <p>
+                    90 EUR
+                </p>
+            </div>
+        </div>
+
+    </body>
+</html>

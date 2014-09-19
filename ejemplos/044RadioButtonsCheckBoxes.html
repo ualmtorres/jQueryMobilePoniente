@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "page1" data-role = "page">
+            <div data-role = "header">
+                <h1>Checkbox y Radiobutton</h1>
+            </div>
+            <div data-role = "content">
+               <div data-role = "controlgroup"> 
+                   <label for = "opcionHombre">Hombre</label>
+                   <input type="radio" id="opcionHombre" name="opcionSexo" value="hombre" checked="checked" />
+                   <label for = "opcionMujer">Mujer</label>
+                   <input type="radio" id="opcionMujer" name="opcionSexo" value="mujer" />
+               </div> 
+            </div>
+            
+            <div data-role = "controlgroup" data-type = "horizontal">
+                <label for = "opcionFutbol">Futbol</label>
+                <input type="checkbox" id="opcionFutbol" name = "opcionFutbol" value="futbol" checked="checked" />
+
+                <label for = "opcionTenis">Tenis</label>
+                <input type="checkbox" id="opcionTenis" name = "opcionTenis" value="tenis" />
+
+                <label for = "opcionNatacion">Natacion</label>
+                <input type="checkbox" id="opcionNatacion" name = "opcionNatacion" value="natacion"  />
+            </div>
+            <div data-role = "footer">
+                <h4></h4>
+            </div>
+        </div>
+    </body>
+</html>

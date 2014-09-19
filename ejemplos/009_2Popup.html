@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "page1" data-role = "page">
+            <div data-role = "header">
+                <h1></h1>
+            </div>
+            <div data-role = "content">
+               <a href = "#popupBasico" data-rel = "popup">Popup b‡sico</a><br/> 
+               <a href = "#popupAvanzado" data-rel = "popup">Popup avanzado</a> 
+            </div>
+            <div data-role = "footer">
+                <h4></h4>
+            </div>
+            <div data-role = "popup" id = "popupBasico">
+                <p>Mensaje del popup b‡sico</p>
+            </div>
+            <div data-role = "popup" id = "popupAvanzado" data-theme = "e" data-overlay-theme="a">
+                <p>Mensaje del popup avanzado</p>
+            </div>
+
+        </div>
+    </body>
+</html>

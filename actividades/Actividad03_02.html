@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Supervinos</title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "page1" data-role = "page">
+            <div data-role = "header">
+                <h1>Supervinos</h1>
+            </div>
+            <div data-role = "content">
+               <form action = "#" method = "get" data-transition = "pop">
+                   <label for = "vino" >Nombre: </label>
+                   <input type = "text" id = "vino" required placeholder="Nombre del vino">
+
+                   <label for = "tipo" >Tipo: </label>
+                   <input type = "text" id = "tipo" required placeholder="Tipo del vino">
+                   
+                   <label for = "do">D.O: </label>
+                   <input type = "text" id = "do" required placeholder = "Denominación de origen">
+
+                   <label for = "cosecha">Cosecha:</label>
+                   <input type = "number" min = "1995" max="2020" id = "cosecha">
+                   
+                   <label for = "stock">Stock:</label>
+                   <input type = "range" min = "0" max="20" id = "stock" data-highlight = "true">
+
+                   <input  type = "submit" value = "Guardar" />
+               </form>
+            </div>
+           <div data-role = "footer">
+                <h4></h4>
+            </div>
+        </div>
+    </body>
+</html>

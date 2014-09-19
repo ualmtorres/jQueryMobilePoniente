@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <link rel="stylesheet" href="jquery.mobile-1.2.0.min.css" />
+        <script src="jquery-1.8.3.min.js"></script>
+        <script src="jquery.mobile-1.2.0.min.js"></script>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; user-scalable = no" />
+    </head>
+
+    <body>
+        <div id = "page1" data-role = "page">
+            <div data-role = "header" data-theme = "b">
+                <a href = "#salir" data-role = "button" data-icon = "home">Salir</a>
+                <h1>Mi App</h1>
+                <a href = "#entrar" data-role = "button" data-icon = "forward" data-iconpos="right">Entrar</a>
+            </div>
+            <div data-role = "content">
+               <p>Ejemplo Bot—n sin texto</p>
+               <a href = "#" data-role = "button" data-icon = "grid" data-iconpos = "notext"></a> 
+            </div>
+        </div>
+        
+        <div id = "entrar" data-role = "page" data-add-back-btn = "true" data-back-btn-text = "Atr‡s">
+            <div data-role = "header"  data-theme = "b">
+                <h1>P‡gina de entrar</h1>
+            </div>
+            <div data-role = "content">
+               <p>Hola!!</p> 
+            </div>
+        </div>
+        
+        <div id = "salir" data-role = "page" data-add-back-btn = "true" data-back-btn-text = "Atr‡s">
+            <div data-role = "header"  data-theme = "b">
+                <h1>P‡gina de salir</h1>
+            </div>
+            <div data-role = "content">
+               <p>Adios!!</p> 
+            </div>
+        </div>
+    </body>
+</html>
